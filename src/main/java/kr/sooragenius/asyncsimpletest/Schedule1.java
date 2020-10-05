@@ -10,7 +10,7 @@ public class Schedule1 {
         System.out.println(Thread.currentThread().getName());
         System.out.println("Schedule1");
         try {
-            Thread.sleep(100);
+            Thread.sleep(1000);
         }catch(Exception ex) {
             ex.printStackTrace();
         }
